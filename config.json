@@ -1,0 +1,6 @@
+{
+    "debug": "true",
+    "port": 8888,
+    "site-title": "avail's url shortener",
+    "database": "rekt-shorten"
+}

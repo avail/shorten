@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+    text-align: center;
+    background: #171717 url('/assets/bg.png') top left repeat;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+
+    color: #333;
+}
+
+#outer-wrapper {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+
+    width: 700px;
+    min-height: 100px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 5px;
+}
+
+#inner-wrapper {
+    background-color: #fff;
+    border-radius: 3px;
+
+    margin: 10px;
+}
+
+h1, h3 {
+    font-weight: 700;
+}
+
+h3 {
+    text-align: left;
+    padding-left: 220px;
+}
+
+small.error {
+    background: #f04124;
+    color: #FFFFFF;
+
+    display: block;
+
+    font-style: italic;
+    font-weight: 700;
+
+    margin-bottom: 0.88889rem;
+    margin-top: -1px;
+
+    padding: 0.33333rem 0.5rem 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+}
